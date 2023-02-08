@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.27.130:8848
+        import-check:
+          enabled: false
+        namespace: 7590f2fb-e877-4ae8-90da-b5bac39a5d87
+  application:
+    name: gulimall-gateway

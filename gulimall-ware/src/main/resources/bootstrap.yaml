@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: gulimall-ware
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.27.130:8848
